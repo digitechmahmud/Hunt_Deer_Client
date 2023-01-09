@@ -4,6 +4,7 @@ import "./App.css";
 import Routes from "./Pages/Routers/Routes/Routes";
 
 function App() {
+  const [isActive, setIsActive] = useState(false);
   return (
     <div className="App">
       <RouterProvider router={Routes}></RouterProvider>
